@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+    background-image: url(https://1.bp.blogspot.com/-Ch05JvXLM_M/WFg2gS4SRDI/AAAAAAAANls/hAjSrFATdMM5ZiURE0jr2JbPyCK0TSanACLcB/s1600/black-background-2.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+  .card-information {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+    
+  }
+  h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #888888;
+    margin-bottom: 1.5rem;
+  }
+  
+  h3 {
+    font-size: 1.25rem;
+    font-weight: normal;
+    color: #aaa9a9;
+    margin-bottom: 1rem;
+  }
+  
+  .card-information img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .card-information img:hover {
+    transform: scale(1.05);
+  }
+  
+  .profil-photo {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  .main-information {
+    text-align: center;
+    margin-right: 20px;
+  }
+  
+  .card-information {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .inf-photo {
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    margin-left: 10px;
+    transition: all 0.3s ease;
+  }
+  
+  .inf-photo:hover {
+    transform: scale(1.1);
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .main-container {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .main-information {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  
+    .inf-photo {
+      margin-left: 0;
+      margin-bottom: 10px;
+    }
+  }
+  
